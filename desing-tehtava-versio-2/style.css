@@ -111,8 +111,8 @@ nav {
   text-decoration: none;
   background-color: #00b4d8;
   color: #fff;
-  padding: 10px 30px;
   border-radius: 5px;
+  padding: 10px 35px;
   margin: 0px 15px;
   font-size: 20px;
 
@@ -261,8 +261,29 @@ article p {
 footer {
   /*Kannattaa laittaa footeriin vähintään padding 
 	ja ehkä eri taustaväri, jotta se erottuu hiukan.*/
+  font-size: 15px;
+  font-weight: 300;
+  text-align: center;
 }
-/*Oma koodi*/
+
+@media (max-width: 680px) {
+  main {
+    width: 100%;
+    padding: 0;
+    margin: auto;
+  }
+
+  header h1 {
+    width: 100%;
+    padding: 10px;
+    margin: auto;
+    font-size: 30px;
+  }
+  #main-menu a {
+    margin: auto;
+    padding: 15px;
+  }
+}
 /* Reset some default styles */
 
 /* Style the header */
