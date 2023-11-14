@@ -267,7 +267,8 @@ footer {
 }
 
 @media (max-width: 680px) {
-  main {
+  main,
+  .article-image {
     width: 100%;
     padding: 0;
     margin: auto;
@@ -282,6 +283,15 @@ footer {
   #main-menu a {
     margin: auto;
     padding: 15px;
+  }
+}
+
+@media (max-width: 500px) {
+  #main-menu a {
+    margin: auto;
+    padding: 10px;
+    font-size: 10px;
+    font-size: 10px;
   }
 }
 /* Reset some default styles */
