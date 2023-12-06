@@ -62,7 +62,7 @@ h6::first-letter {
 }
 .search-bar {
   background: #fff;
-  width: 90%;
+  max-width: 90%;
   margin: 30px auto;
   padding: 6px 10px 6px 30px;
   border-radius: 60px;
