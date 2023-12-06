@@ -1,0 +1,328 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+header,
+h1,
+h6 {
+  font-family: "Merriweather Sans", sans-serif;
+}
+.header {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(images/pexels-suzukii-xingfu-872831.jpg);
+  background-position: center;
+  background-size: cover;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 8%;
+  background-color: rgba(18, 8, 8, 0.8);
+}
+h6 {
+  font-size: 20px;
+  cursor: pointer;
+  text-shadow: 2px 2px cyan;
+}
+h6::first-letter {
+  font-size: 3rem;
+  color: brown;
+}
+.navLinks li {
+  list-style: none;
+  display: inline-block;
+  margin: 10px 40px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.navLinks li a {
+  text-decoration: none;
+  color: #fff;
+}
+.navLinks li a:hover {
+  background-color: #a3cef1;
+  color: #000;
+  padding: 15px 15px;
+  border-radius: 10px;
+}
+.container {
+  padding: 0 8%;
+}
+.header h1 {
+  font-size: 4vw;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  padding-top: 22%;
+}
+.search-bar {
+  background: #fff;
+  width: 90%;
+  margin: 30px auto;
+  padding: 6px 10px 6px 30px;
+  border-radius: 60px;
+}
+.search-bar form {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.search-bar form input {
+  display: block;
+  border: 0;
+  outline: none;
+  background: transparent;
+}
+.search-bar form button {
+  background: #ff5361;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+.search-bar form button img {
+  width: 15px;
+  margin-top: 7px;
+}
+.locatoin.input {
+  flex: 1;
+}
+.search-bar form label {
+  font-weight: 600;
+}
+/*------------exclusives-------- */
+.sub-title {
+  margin: 50px 0 20px;
+  font-size: 2.2vw;
+  font-weight: 500;
+  color: #333;
+}
+.exclusives {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(208px, 1fr));
+  grid-gap: 20px;
+}
+.exclusives div img {
+  width: 100%;
+  border-radius: 10px;
+}
+.exclusives div {
+  position: relative;
+}
+.exclusives div span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 10px;
+  background: rgb(10, 4, 4, 0.8);
+  width: 100%;
+  text-align: justify;
+  color: #fff;
+  padding: 5px 10px;
+  line-height: 1.5;
+  letter-spacing: 1.5px;
+}
+
+/*-----call to actoin cta---*/
+.cta {
+  margin: 80px 0;
+  background-image: linear-gradient(to right, #3f2321, transparent),
+    url(images/fadhi.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  padding: 5%;
+  color: #fff;
+}
+.cta {
+  font-size: 4wv;
+  line-height: 5.2wv;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.act p {
+  font-size: 18px;
+  margin: 10px 0;
+  text-transform: capitalize;
+}
+.cta-btn {
+  background: #ff5361;
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 30px;
+  border-radius: 8px;
+  margin-top: 20px;
+  display: inline-block;
+  text-transform: capitalize;
+}
+.cta-btn:hover {
+  background-color: red;
+}
+/*---------travellers stories-------*/
+.stories {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 30px;
+  margin-bottom: 30px;
+}
+
+.stories div img {
+  width: 100%;
+  border-radius: 10px;
+}
+.stories div {
+  position: relative;
+  text-align: center;
+}
+.stories p {
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+.start-btn {
+  text-decoration: none;
+  background: #ff5361;
+  color: #fff;
+  width: 80%;
+  max-width: 350px;
+  border-radius: 30px;
+  display: block;
+  text-align: center;
+  margin: 60px auto;
+  padding: 15px;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+.about-msg {
+  text-align: center;
+  line-height: 1.5;
+  margin: 80px 0;
+  color: #333;
+  font-size: 15px;
+}
+.about-msg h2 {
+  font-size: 28px;
+  margin-bottom: 25px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+footer p {
+  padding: 25px 15px;
+  text-align: center;
+  background-color: #003049;
+  color: #fff;
+  font-size: 25px;
+}
+
+@media only screen and (max-width: 1000px) {
+  h6 {
+    top: 4%;
+    left: 3%;
+  }
+  nav .navLinks li {
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    margin-left: 10rem;
+    text-decoration: none;
+  }
+  .navLinks li a:hover {
+    display: none;
+  }
+  .header h1 {
+    padding-top: 200px;
+    font-size: 7vw;
+  }
+  .search-bar {
+    width: 70%;
+    margin: 30px auto;
+    padding: 20px 10px 30px;
+    border-radius: 5px;
+    position: relative;
+  }
+  .search-bar form {
+    display: inline-block;
+  }
+  .search-bar form input {
+    border-bottom: 1 solid #ddd;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+  }
+  .search-bar form button {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+  }
+  .sub-title {
+    font-size: 6vw;
+  }
+  .cta {
+    padding: 15% 5%;
+  }
+  .cta h3 {
+    font-size: 7vw;
+    line-height: 8vw;
+  }
+  .cta p {
+    font-size: 14px;
+  }
+  .cta-btn {
+    padding: 6px 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  .stories p {
+    font-size: 22px;
+  }
+  .about-msg p {
+    font-size: 15px;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .search-bar {
+    width: 80%;
+    margin: 30px auto;
+    padding: 30px 20px 30px;
+    border-radius: 50px;
+    position: relative;
+    font-size: 20px;
+  }
+
+  .search-bar form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .search-bar form input {
+    border-bottom: 1 solid #ddd;
+    width: 70%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding-bottom: 15px;
+  }
+  .search-bar form button {
+    position: absolute;
+    top: 0;
+    left: 95%;
+    transform: translate(-50%, 50%);
+  }
+}
