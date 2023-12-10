@@ -10,7 +10,9 @@ h1,
 h6 {
   font-family: "Merriweather Sans", sans-serif;
 }
-
+p {
+  font-size: 20px;
+}
 nav {
   display: flex;
   align-items: center;
@@ -25,6 +27,7 @@ h6 {
   letter-spacing: 2px;
   color: #ff7b00;
 }
+
 h6::first-letter {
   font-size: 3rem;
   color: #dc2f02;
