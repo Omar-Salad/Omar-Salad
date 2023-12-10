@@ -107,7 +107,7 @@ h6::first-letter {
 }
 .exclusives {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(208px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 20px;
 }
 .exclusives div img {
@@ -173,7 +173,9 @@ h6::first-letter {
   grid-gap: 30px;
   margin-bottom: 30px;
 }
-
+.sub-title {
+  text-align: center;
+}
 .stories div img {
   width: 100%;
   border-radius: 10px;
@@ -189,7 +191,7 @@ h6::first-letter {
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
-  font-size: 20px;
+  font-size: 25px;
   text-transform: capitalize;
 }
 
@@ -219,10 +221,12 @@ h6::first-letter {
   box-shadow: 0px 0px 5px cyan, 0px 0px 25px cyan, 0px 0px 30px magenta;
 }
 .about-msg h2 {
-  font-size: 28px;
+  font-size: 20px;
   margin-bottom: 25px;
-  font-weight: 500;
+  font-weight: 900;
   text-transform: capitalize;
+  text-align: center;
+  color: red;
 }
 
 footer p {
@@ -296,11 +300,15 @@ footer p {
     font-size: 18px;
   }
   .stories p {
-    font-size: 22px;
+    font-size: 23px;
   }
   .about-msg p {
     font-size: 15px;
     text-align: center;
+  }
+  .stories {
+    display: flex;
+    flex-direction: column;
   }
 }
 @media only screen and (min-width: 900px) {
