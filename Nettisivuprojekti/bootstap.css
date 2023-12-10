@@ -47,6 +47,8 @@ h6::first-letter {
 }
 .navLinks li a:hover {
   color: #dc2f02;
+  font-size: 25px;
+  transition: 1s;
 }
 .bg-img {
   height: 100vh;
