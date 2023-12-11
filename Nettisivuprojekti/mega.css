@@ -28,6 +28,7 @@ h6 {
   font-size: 20px;
   cursor: pointer;
   text-shadow: 2px 2px cyan;
+  
 }
 h6::first-letter {
   font-size: 3rem;
@@ -191,12 +192,13 @@ h6::first-letter {
 .stories p {
   width: 80%;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 0%;
+width: 100%;
   color: #fff;
-  font-size: 25px;
+  font-size: 20px;
   text-transform: capitalize;
+  background-color: rgb(60, 28, 2, 0.9);
+  border-radius: 5px;
 }
 
 .about-msg {
@@ -256,7 +258,7 @@ footer p {
   }
   .navLinks li a:hover {
     padding: 10px 15px;
-    font-size: 20px;
+    font-size: 15px;
   }
   .header h1 {
     padding-top: 200px;
