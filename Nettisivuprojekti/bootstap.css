@@ -57,7 +57,10 @@ h6::first-letter {
   background-size: cover;
   margin-bottom: 50px;
 }
-
+#pricing{
+  background-color: black;
+  color: white;
+}
 @media only screen and (max-width: 1000px) {
   h6 {
     top: 4%;
