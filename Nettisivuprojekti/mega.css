@@ -131,6 +131,7 @@ h6::first-letter {
   padding: 10px 10px;
   line-height: 1.5;
   letter-spacing: 1.5px;
+  cursor: pointer;
 }
 
 .exclusives div span:hover{
